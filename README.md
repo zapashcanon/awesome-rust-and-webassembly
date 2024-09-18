@@ -59,6 +59,10 @@ Attribution-ShareAlike 4.0 International License</a>.
 
 ## Development Tools
 
+### Bug-finding
+
+* [Owi](https://github.com/OCamlPro/owi) — A Rust bug-finding tool that works by performing symbolic execution after compiling to Wasm. ([paper](https://hal.science/hal-04627413))
+
 ### Build and Workflow Orchestration
 
 * [wasm-pack](https://github.com/rustwasm/wasm-pack) [![](https://img.shields.io/crates/v/wasm-pack.svg)](https://crates.io/crates/wasm-pack) [![](https://api.travis-ci.org/rustwasm/wasm-pack.svg?branch=master)](https://travis-ci.org/rustwasm/wasm-pack) — `wasm-pack` seeks to be a one-stop shop for building and working with Rust-generated WebAssembly that you would like to interoperate with JavaScript, on the Web or with Node.js. `wasm-pack` helps you build and publish Rust-generated WebAssembly to the npm registry to be used alongside any other JavaScript package in workflows that you already use.
